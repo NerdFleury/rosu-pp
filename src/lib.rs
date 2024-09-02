@@ -177,6 +177,8 @@ pub mod osu;
 
 pub mod osu_2014_july;
 
+pub mod osu_2019;
+
 /// Types for osu!taiko calculations.
 pub mod taiko;
 
