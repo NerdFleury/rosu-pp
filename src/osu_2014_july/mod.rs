@@ -1,16 +1,16 @@
-mod difficulty_object;
+pub mod difficulty_object;
 use difficulty_object::DifficultyObject;
 
-mod osu_object;
+pub mod osu_object;
 use osu_object::OsuObject;
 
-mod pp;
+pub mod pp;
 pub use pp::{OsuAttributeProvider, OsuPP};
 
-mod skill;
+pub mod skill;
 use skill::Skill;
 
-mod skill_kind;
+pub mod skill_kind;
 use skill_kind::SkillKind;
 
-mod stars;
+pub mod stars;
