@@ -175,6 +175,8 @@ pub mod any;
 /// Types for osu!standard calculations.
 pub mod osu;
 
+pub mod osu_2014_july;
+
 /// Types for osu!taiko calculations.
 pub mod taiko;
 
